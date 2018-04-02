@@ -35,7 +35,7 @@ public class SharedPrefManager {
     }
 
     /*
-     * METODO QUE PERMITE OBTENER LOS DATOS DEL USUARIO PARA PASARLOS A OTRA CLASE
+     * METODO QUE PERMITE CREAR UNA SESION PARA EL USUARIO
      */
     public boolean userLogin(User user) {
         SharedPreferences sharedPreferences = mCtx.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE);
